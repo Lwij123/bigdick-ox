@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage" id="stage">
+
+  <section class="slide slide--video is-active" data-type="video">
+    <video id="video" src="video.mp4" preload="metadata" playsinline controls></video>
+    <span class="slide__tag">生日录像 · 2026.11.04 23:05</span>
+  </section>
+
+  <section class="slide" data-type="photo">
+    <img class="slide__img" src="photo1.jpg" alt="20 岁生日">
+    <div class="slide__veil"></div>
+    <h1 class="hero__title">我是傻逼</h1>
+    <span class="slide__tag">23:06 · 20</span>
+  </section>
+
+  <section class="slide" data-type="photo">
+    <img class="slide__img" src="photo2.jpg" alt="20 岁生日">
+    <div class="slide__veil"></div>
+    <p class="hero__date">2026 · 20</p>
+    <span class="slide__tag">23:06</span>
+  </section>
+
+  <section class="slide" data-type="photo">
+    <img class="slide__img" src="photo3.jpg" alt="20 岁生日">
+    <div class="slide__veil"></div>
+    <span class="slide__tag">23:06 · 比耶</span>
+  </section>
+
+  <section class="slide" data-type="photo">
+    <img class="slide__img" src="photo4.jpg" alt="20 岁生日">
+    <div class="slide__veil"></div>
+    <span class="slide__tag">23:07 · 生日帽</span>
+  </section>
+
+  <section class="slide" data-type="photo">
+    <img class="slide__img" src="photo5.jpg" alt="20 岁生日">
+    <div class="slide__veil"></div>
+    <span class="slide__tag">23:07 · 笑一个</span>
+  </section>
+
+</main>
+
+<button class="next" id="next" type="button">下一个<span class="next__arrow">›</span></button>
+<button class="mute" id="mute" type="button" aria-pressed="false" title="视频播放时的背景音乐">♪ 戒不掉</button>
+<audio id="bgm" loop preload="auto"></audio>
+<script src="script.js"></script>
+</body>
+</html>
